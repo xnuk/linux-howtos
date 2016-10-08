@@ -3,8 +3,7 @@
 # Swap
 - swap file:
   - https://wiki.archlinux.org/index.php/Swap#Swap_file
-  - |
-    ```bash
+  - ```bash
     dd if=/dev/zero of=/swapfile bs=1M count=512
     chmod 600 /swapfile
     mkswap /swapfile
